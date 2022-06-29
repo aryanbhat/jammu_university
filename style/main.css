@@ -116,7 +116,7 @@ nav a{
   text-decoration: none;
   display: block;
   text-align: left;
-  border-bottom: 1px dotted rgb(3, 3, 3);
+  border-bottom: 1px solid rgb(3, 3, 3);
   font-family: 'Poppins',sans-serif;
 }
 .convocation{
@@ -305,6 +305,8 @@ nav a{
  .logo img{
   width: 100%;
   display: block;
+   height: 100%;
+
 
  }
 
