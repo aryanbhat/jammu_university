@@ -1,1 +1,3 @@
-# jammu-university1
+# jammu-university
+
+Website designed for jammu university by our team
