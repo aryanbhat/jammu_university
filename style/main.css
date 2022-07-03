@@ -237,8 +237,20 @@ nav a{
       display:block;
       cursor: pointer;
     }
-    
-    
+    .vc{
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+    }
+    .vc-info{
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    .vc-pic{
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
 }
 
 .appear{
@@ -428,14 +440,11 @@ nav a{
   width: 80%;
   margin: 0 auto;
   text-align: center;
-}
-.vc-card{
-  margin: 2% auto;
-display: flex;
-flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 3%;
   justify-content: center;
   align-items: center;
-  
 }
 .vc-pic{
   margin-top: 1%;
@@ -467,6 +476,8 @@ flex-direction: column;
   color: rgb(2, 26, 84);
   font-size: 2rem;
   font-weight: 800;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 /* testimonial carousel */
 
